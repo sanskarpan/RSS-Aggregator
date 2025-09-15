@@ -13,9 +13,6 @@ RSS-Aggregator
 *.o
 *.a
 
-# Dependency directories (vendor if managed manually)
-vendor/
-
 # Go coverage reports
 *.cover
 *.cov
