@@ -1,2 +1,51 @@
 RSS-Aggregator
 .env
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go build output
+*.test
+*.out
+*.o
+*.a
+
+# Dependency directories (vendor if managed manually)
+vendor/
+
+# Go coverage reports
+*.cover
+*.cov
+*.prof
+*.profraw
+*.gcov
+*.lcov
+*.gcda
+*.gcno
+
+# Output of `go build`
+*.log
+*.tmp
+*.swp
+*.swo
+*.db
+*.sqlite
+
+# IDE and editor files
+.idea/
+.vscode/
+*.iml
+
+# Mac / Linux / Windows junk files
+.DS_Store
+Thumbs.db
+
+# Modules cache (if you want to keep modules downloaded globally, skip this)
+go.sum
+
+# Temporary Go workspace files
+go.work
+go.work.sum
