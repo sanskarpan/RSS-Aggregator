@@ -1,9 +1,8 @@
 package main
 
-import (
-	"net/http"
-)
+import "net/http"
 
 func handlerReadiness(w http.ResponseWriter, r *http.Request) {
-	respondWithJSON(w, 200, map[string]string{"status": "ok"})
+	//we respond with an empty struct cause we only care about the status code to indicate success or failure
+	respondWithJSON(w, 200, struct{}{})
 }
